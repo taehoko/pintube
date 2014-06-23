@@ -3,6 +3,7 @@ pintube
 ![alt tag](https://raw.githubusercontent.com/taehoko/pintube/master/bitmap/pintube_demo.gif)
 
 Q. How many hours did it take to complete?
+
 A. 6~7 hours 
 
 Q. Which required stories have you completed?
