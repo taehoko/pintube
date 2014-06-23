@@ -2,11 +2,13 @@ pintube
 =======
 ![alt tag](https://raw.githubusercontent.com/taehoko/pintube/master/bitmap/pintube_demo.gif)
 
-Q. How many hours did it take to complete?< br />
+Q. How many hours did it take to complete?
+
 A. 6~7 hours 
 
-Q. Which required stories have you completed?< br />
-A. I used my own images to create a fake app "PinTube" (Pinterest + YouTube)< br />
+Q. Which required stories have you completed?
+
+A. I used my own images to create a fake app "PinTube" (Pinterest + YouTube)
 
 A. This app includes all features from the Facebook example (post view, tab bar, navigation bars, etc) 
 
