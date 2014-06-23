@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "SearchViewController.h"
+#import "AddViewController.h"
+#import "MessageViewController.h"
+#import "MeViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +19,67 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Create the two view controllers, each within a navigation controller
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    UINavigationController *mainNavigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    
+    SearchViewController *searchViewController = [[SearchViewController alloc] init];
+    UINavigationController *searchNavigationController = [[UINavigationController alloc] initWithRootViewController:searchViewController];
+    
+    AddViewController *addViewcontroller = [[AddViewController alloc] init];
+    //UINavigationController *addNavigationController = [[UINavigationController alloc] initWithRootViewController:addViewcontroller];
+    
+    MessageViewController *messageViewcontroller = [[MessageViewController alloc] init];
+    UINavigationController *messageNavigationController = [[UINavigationController alloc] initWithRootViewController:messageViewcontroller];
+    
+    MeViewController *meViewController = [[MeViewController alloc] init];
+    UINavigationController *meNavigationController = [[UINavigationController alloc] initWithRootViewController:meViewController];
+    
+    
+    // Configure the tab bar controller with the two navigation controllers
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[mainNavigationController, searchNavigationController, addViewcontroller, messageNavigationController, meNavigationController];
+    tabBarController.tabBar.translucent = NO;
+    
+    mainNavigationController.tabBarItem.title = @"Main";
+    mainNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_main"];
+    mainNavigationController.navigationBar.barTintColor = [UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1];
+    mainNavigationController.navigationBar.translucent = NO;
+    mainNavigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    searchNavigationController.tabBarItem.title = @"Search";
+    searchNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_search"];
+    searchNavigationController.navigationBar.barTintColor = [UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1];
+    searchNavigationController.navigationBar.translucent = NO;
+    searchNavigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    //addNavigationController.tabBarItem.title = @"Add";
+    //addNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_add"];
+    //addNavigationController.navigationBar.barTintColor = [UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1];
+    //addNavigationController.navigationBar.translucent = NO;
+    //addNavigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    messageNavigationController.tabBarItem.title = @"Messages";
+    messageNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_messages"];
+    messageNavigationController.navigationBar.barTintColor = [UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1];
+    messageNavigationController.navigationBar.translucent = NO;
+    messageNavigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    meNavigationController.tabBarItem.title = @"Taeho";
+    meNavigationController.tabBarItem.image = [UIImage imageNamed:@"tab_me"];
+    meNavigationController.navigationBar.barTintColor = [UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1];
+    meNavigationController.navigationBar.translucent = NO;
+    meNavigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    //[[UITabBar appearance] setTintColor:[UIColor redColor]];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:(199/255.0) green:(37/255.0) blue:(39/255.0) alpha:1]];
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:(242/255.0) green:(242/255.0) blue:(242/255.0) alpha:1]]; //#f2f2f2
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    self.window.rootViewController = tabBarController;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
