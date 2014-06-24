@@ -1,10 +1,15 @@
+pintube v2 
+=======
+Added "TTTAttributedText" for "youtube.com" link 
+
+
 pintube
 =======
 ![alt tag](https://raw.githubusercontent.com/taehoko/pintube/master/bitmap/pintube_demo.gif)
 
 Q. How many hours did it take to complete?
 
-A. 6~7 hours 
+A. 10 hours 
 
 Q. Which required stories have you completed?
 
@@ -25,8 +30,6 @@ A. I used NavigationController to add the title (text and image) and left * righ
 A. Tapping the photo(video) shows a view controller with a full-screen video. 
 
 Q. Open questions
-
-A. I couldn't get "TTTAtributedLabel" work. 
 
 A. I wanted to make the "add" tab bring up a modal screen that overlays on top of any previous screen instead of a separat e view, but I couldn't make this work. 
 
