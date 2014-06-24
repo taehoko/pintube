@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D4E0617-D137-486C-AC2E-0DB20A1BEE40</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pintube</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF424411-6707-410B-ADD4-13F10CD07ADC</key>
+		<string>https://github.com/taehoko/pintube.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pintube.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF424411-6707-410B-ADD4-13F10CD07ADC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/taehoko/pintube.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF424411-6707-410B-ADD4-13F10CD07ADC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF424411-6707-410B-ADD4-13F10CD07ADC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pintube</string>
+		</dict>
+	</array>
+</dict>
+</plist>

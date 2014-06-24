@@ -15,7 +15,7 @@
                 <outlet property="likeContainerView" destination="KPH-0S-h2F" id="Mkh-pn-kdD"/>
                 <outlet property="likeCountLabel" destination="6dC-La-bPI" id="TTs-DU-zhG"/>
                 <outlet property="likeImageView" destination="ReI-qe-FqG" id="OjW-nv-PLs"/>
-                <outlet property="linkLabel" destination="54f-ib-ybO" id="v0z-RI-hXG"/>
+                <outlet property="mainView" destination="bXD-71-oYe" id="d0U-QA-oUF"/>
                 <outlet property="pinButton" destination="3Bg-Nb-nqm" id="Fru-ZA-o3I"/>
                 <outlet property="profileView" destination="kjW-Bn-Ocr" id="xEn-Nl-QcW"/>
                 <outlet property="starContainerView" destination="Oqm-Mb-vbz" id="WVO-vX-VlP"/>
@@ -48,30 +48,6 @@
                                 </fragment>
                             </attributedString>
                             <color key="highlightedColor" red="0.17077885841836737" green="0.17077885841836737" blue="0.17077885841836737" alpha="1" colorSpace="calibratedRGB"/>
-                            <size key="shadowOffset" width="0.0" height="0.0"/>
-                        </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="54f-ib-ybO">
-                            <rect key="frame" x="16" y="276" width="240" height="52"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <attributedString key="attributedText">
-                                <fragment content="Added 2 days ago from ">
-                                    <attributes>
-                                        <color key="NSColor" red="0.65262276785714279" green="0.65262276785714279" blue="0.65262276785714279" alpha="1" colorSpace="calibratedRGB"/>
-                                        <font key="NSFont" size="12" name="HelveticaNeue-Medium"/>
-                                        <font key="NSOriginalFont" size="12" name="HelveticaNeue-Medium"/>
-                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                    </attributes>
-                                </fragment>
-                                <fragment content="youtube.com">
-                                    <attributes>
-                                        <color key="NSColor" red="0.78039222959999999" green="0.1411764771" blue="0.14901961389999999" alpha="1" colorSpace="deviceRGB"/>
-                                        <font key="NSFont" size="12" name="HelveticaNeue-Medium"/>
-                                        <font key="NSOriginalFont" size="12" name="HelveticaNeue-Medium"/>
-                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                    </attributes>
-                                </fragment>
-                            </attributedString>
-                            <color key="highlightedColor" red="0.17077885840000001" green="0.17077885840000001" blue="0.17077885840000001" alpha="1" colorSpace="calibratedRGB"/>
                             <size key="shadowOffset" width="0.0" height="0.0"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KYC-nW-qn8">
@@ -227,6 +203,10 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
+                        <view contentMode="scaleToFill" id="bXD-71-oYe">
+                            <rect key="frame" x="15" y="290" width="168" height="41"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>

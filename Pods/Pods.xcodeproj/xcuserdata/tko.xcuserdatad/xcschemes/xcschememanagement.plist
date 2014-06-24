@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TTTAttributedLabel.xcscheme</key>
+		<key>Pods-pintube-TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-pintube.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>302C8FFFFD184AAAA46C3C52</key>
+		<key>7D535B934DB2429FBE27C838</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FBBF3AB935EE48E3A1D7B304</key>
+		<key>E847FA289DED4164B1DBF49F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

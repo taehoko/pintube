@@ -8,7 +8,8 @@
 
 #import "MainViewController.h"
 #import "PlayerViewController.h"
-#import "TTTAttributedLabel.h"
+#import <TTTAttributedLabel/TTTAttributedLabel.h>
+
 
 @interface MainViewController ()
 
@@ -44,10 +45,11 @@
 - (IBAction)onVideoPlayerTouchUp:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIButton *pinButton;
+@property (weak, nonatomic) IBOutlet UIView *mainView;
 
-@property (weak, nonatomic) IBOutlet TTTAttributedLabel *linkLabel;
 
 @end
+
 
 @implementation MainViewController
 
@@ -106,14 +108,22 @@
     
     [self.pinButton setImage:[UIImage imageNamed:@"pin_btn_highlighted"] forState:UIControlStateHighlighted];
 
-    //self.linkLabel.font = [UIFont systemFontOfSize: 12];
-    //self.linkLabel.textColor = [UIColor lightGrayColor];
-    //self.linkLabel.numberOfLines = 0;
+    TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(0, 0, 400, 30)];
+    label.font = [UIFont systemFontOfSize:12];
+    label.textColor = [UIColor lightGrayColor];
+    label.numberOfLines = 0;
     
-    //self.linkLabel.delegate = self.linkLabel;
-    //self.linkLabel.text = @"Added 2 days ago from youtube.com";
-    //NSRange range = [self.linkLabel.text rangeOfString:@"youtube"];
-    //[self.linkLabel addLinkToURL:[NSURL URLWithString:@"http://www.youtube.com"] withRange:range];
+    NSString *text = @"Added 2 days ago from youtube.com";
+    
+    
+    label.enabledTextCheckingTypes = NSTextCheckingTypeLink;
+    label.delegate = self;
+    
+    [label setText:text afterInheritingLabelAttributesAndConfiguringWithBlock:^ NSMutableAttributedString *(NSMutableAttributedString *mutableAttributedString) {
+        
+        return mutableAttributedString;
+    }];
+    [self.mainView addSubview:label];
 }
 
 - (void)doNothing {

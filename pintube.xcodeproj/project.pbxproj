@@ -10,13 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>24167E94274C42BBABA8A898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A15E96F9699447F99667D93B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6A3ECE4C19549CD6000D018F</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -238,7 +231,7 @@
 				<string>6AC8EC0F1953B73400E367D7</string>
 				<string>6AC8EBEF1953B73400E367D7</string>
 				<string>6AC8EBEE1953B73400E367D7</string>
-				<string>C4014E474E434770B2C5128B</string>
+				<string>7D29DEB3E00A40E8B465EDC6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -335,7 +328,7 @@
 				<string>6AC8EBF31953B73400E367D7</string>
 				<string>6AC8EBF51953B73400E367D7</string>
 				<string>6AC8EBF11953B73400E367D7</string>
-				<string>24167E94274C42BBABA8A898</string>
+				<string>EB5EDB30B2C342DCADD9158A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -368,11 +361,11 @@
 			<string>6AC8EC191953B73400E367D7</string>
 			<key>buildPhases</key>
 			<array>
-				<string>B06A30FD86D043C69FE8B5F7</string>
+				<string>7C409232648440BF91D4B50D</string>
 				<string>6AC8EBE91953B73400E367D7</string>
 				<string>6AC8EBEA1953B73400E367D7</string>
 				<string>6AC8EBEB1953B73400E367D7</string>
-				<string>AD9C27762BC648CCB9034A9F</string>
+				<string>FE371A02AA474085A31FCCC6</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -424,7 +417,7 @@
 				<string>6AC8EBF21953B73400E367D7</string>
 				<string>6AC8EBF41953B73400E367D7</string>
 				<string>6AC8EC091953B73400E367D7</string>
-				<string>A15E96F9699447F99667D93B</string>
+				<string>8CF4C9FDA2D34EBF973BAF6B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1022,7 +1015,7 @@
 		<key>6AC8EC1A1953B73400E367D7</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C4014E474E434770B2C5128B</string>
+			<string>7D29DEB3E00A40E8B465EDC6</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -1048,7 +1041,7 @@
 		<key>6AC8EC1B1953B73400E367D7</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C4014E474E434770B2C5128B</string>
+			<string>7D29DEB3E00A40E8B465EDC6</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -1286,44 +1279,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A15E96F9699447F99667D93B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AD9C27762BC648CCB9034A9F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B06A30FD86D043C69FE8B5F7</key>
+		<key>7C409232648440BF91D4B50D</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -1353,7 +1309,7 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>C4014E474E434770B2C5128B</key>
+		<key>7D29DEB3E00A40E8B465EDC6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1362,11 +1318,55 @@ fi
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>name</key>
-			<string>Pods.xcconfig</string>
+			<string>Pods-pintube.xcconfig</string>
 			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
+			<string>Pods/Pods-pintube.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CF4C9FDA2D34EBF973BAF6B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-pintube.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EB5EDB30B2C342DCADD9158A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CF4C9FDA2D34EBF973BAF6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FE371A02AA474085A31FCCC6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-pintube-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
